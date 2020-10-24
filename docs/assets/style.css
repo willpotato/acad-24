@@ -10,6 +10,13 @@ Inspired by the Minecraft Launcher */
 body {
 	background-image: url(./img/bg-wool-dark.png)
 }
+h5 {
+	font-family: "Minecraft Bold", serif;
+	font-size: 11px;
+	text-align: center;
+	width: 100%;
+	color: #868686;
+}
 .background {
 	background-position: center;
 	background-repeat: repeat;
@@ -28,37 +35,89 @@ body {
 	background: #1E1E1E;
 	width: 800px;
 	height: 150px;
-	margin: auto;
+	margin-top: auto;
+	margin-bottom: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
-.img {
-	margin: 50px;
+.footer-img {
+	margin: 10px;
+	margin-top: 25px;
+	width: 25%;
+	height: 25%;
+	float: center
+	position: absolute;
+}
+.footer-img-logo {
+	margin-left: 275px;
+	width: 22%;
+}
+.footer-img-github {
+	filter: brightness(30%);
+	float: left;
+}
+.footer-img-mojang {
+	width: auto;
+}
+.footer-button-sq {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	float: right;
+	top: 0;
+	right: 0;
+}
+.footer-div {
+	background-color: #262626;
+	margin: auto;
+	margin-top: 50px;
+	margin-left: 10px;
+	width: 500px;
+	height: 60px;
+	float: left;
 }
 .button {
-	width: 200px;
-	height: 50px;
 	background-color: #34aa2f;
 	font-size: 20px;
 	font-family: Minecraft Bold;
 	box-shadow: 0 -4px rgba(21,108,0,.5) inset, 0 4px rgba(100,253,31,.99) inset, -4px 0 rgba(100,253,31,.5) inset, 4px 0 rgba(21,108,0,.5) inset;
 	padding: 10px 10px;
 	color: #f9f9f9;
-	margin: 25px;
+	margin: 20px;
 	border: none;
 	outline: none;
 	transition: 0.5s;
 }
 .button:hover {
-	filter: contrast(200%);
+	filter: contrast(150%);
 	cursor: pointer;
 	transform: rotate3d(-1, 1, 0, 10deg);
+}
+.button-rec {
+	width: 200px;
+	height: 50px;
 }
 .button-sq {
 	width: 50px;
 	height: 50px;
-	position: absolute;
+	float: right;
 }
 .button-sq:hover {
 	transform: rotate(-90deg);
+}
+.button-sq-social {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.button-sq-social:hover {
+	filter: contrast(150%);
+	cursor: pointer;
+	transform: rotate3d(-1, 1, 0, 10deg);
+	height: 60px;
+}
+.button-sq-social-end {
+	margin-right: 20px;
 }
 .button-sq-icon {
 	width: 30px;
