@@ -1,0 +1,82 @@
+/* MIT License (c) 2020 willthepotato
+
+Color Pallete
+#1E1E1E Dark Gray
+#262626 Less-Dark Gray
+#064D2A Dark Green
+#038C3E Green
+#27CE40 Lime Green
+Inspired by the Minecraft Launcher */
+body {
+	background-image: url(./img/bg-wool-dark.png)
+}
+.background {
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 200px 200px;
+	background-attachment: fixed;
+}
+.frame {
+	background: #262626;
+	width: 800px;
+	height: 1000px;
+	margin: auto;
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+.footer {
+	background: #1E1E1E;
+	width: 800px;
+	height: 150px;
+	margin: auto;
+}
+.img {
+	margin: 50px;
+}
+.button {
+	width: 200px;
+	height: 50px;
+	background-color: #34aa2f;
+	font-size: 20px;
+	font-family: Minecraft Bold;
+	box-shadow: 0 -4px rgba(21,108,0,.5) inset, 0 4px rgba(100,253,31,.99) inset, -4px 0 rgba(100,253,31,.5) inset, 4px 0 rgba(21,108,0,.5) inset;
+	padding: 10px 10px;
+	color: #f9f9f9;
+	margin: 25px;
+	border: none;
+	outline: none;
+	transition: 0.5s;
+}
+.button:hover {
+	filter: contrast(200%);
+	cursor: pointer;
+	transform: rotate3d(-1, 1, 0, 10deg);
+}
+.button-sq {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+.button-sq:hover {
+	transform: rotate(-90deg);
+}
+.button-sq-icon {
+	width: 30px;
+	height: 30px;
+	filter: invert(100%);
+}
+.sticky {
+	position: sticky;
+}
+@font-face {
+    font-family: 'Minecraft';
+        src: url('./font/minecraft_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+@font-face {
+    font-family: 'Minecraft Bold';
+        src: url('./font/minecraft_bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
