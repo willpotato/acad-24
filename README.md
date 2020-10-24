@@ -1,2 +1,2 @@
 # acad-24
-Communal minecraft server website with friends.
+A simple website for my communal minecraft server with friends.
