@@ -142,6 +142,7 @@ h5 {
 	margin: 15px;
 	outline: none;
 	width: 20px;
+	transition: 0.5s;
 }
 .paypal:hover {
 	filter: contrast(150%);
