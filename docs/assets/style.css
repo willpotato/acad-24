@@ -28,7 +28,7 @@ h5 {
 	width: 800px;
 	height: 150px;
 	margin: auto;
-	margin-top: 75px;
+	margin-top: 65px;
 	margin-bottom: 0px;
 }
 .frame {
@@ -149,6 +149,32 @@ h5 {
 	cursor: pointer;
 	transform: rotate3d(-1, 1, 0, 10deg);
 	transition: 0.5s;
+}
+.ip {
+	display: flex;
+    justify-content: center;
+	font-size: 16px;
+	font-family: Minecraft Bold;
+	color: #ababab;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.ip:hover {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: ip_anim 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+@keyframes ip_anim {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }
 @font-face {
     font-family: 'Minecraft';
