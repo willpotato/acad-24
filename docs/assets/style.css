@@ -167,6 +167,19 @@ h5 {
     animation: ip_anim 6s ease-in-out infinite;
     background-size: 400% 100%;
 }
+.srvbanner {
+	justify-content: center;
+	width: 100%;
+	height: 50px;
+}
+.srvbanner-txt {
+	justify-content: center;
+	font-size: 16px;
+	font-family: Minecraft Bold;
+	color: #ababab;
+	margin: 0 auto;
+	margin-top: 20px;
+}
 @keyframes ip_anim {
     0%,100% {
         background-position: 0 0;
@@ -178,13 +191,18 @@ h5 {
 }
 @font-face {
     font-family: 'Minecraft';
-        src: url('./font/minecraft_regular.ttf') format('truetype');
+	    src: url('./font/minecraft_regular.woff2') format('woff2'),
+	    	 url('./font/minecraft_regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-      }
+    font-display: swap;
+}
+
 @font-face {
     font-family: 'Minecraft Bold';
-        src: url('./font/minecraft_bold.otf') format('opentype');
-    font-weight: normal;
+	    src: url('./font/minecraft_bold.woff2') format('woff2'),
+	         url('./font/minecraft_bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
-      }
+    font-display: swap;
+}
