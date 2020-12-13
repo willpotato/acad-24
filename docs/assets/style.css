@@ -17,6 +17,19 @@ h5 {
 	width: 100%;
 	color: #868686;
 }
+::-webkit-scrollbar {
+	background: #1B1B1B;
+}
+::-webkit-scrollbar-track {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+::-webkit-scrollbar-thumb {
+	background: #393939;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #444444;
+}
 .background {
 	background-position: center;
 	background-repeat: repeat;
