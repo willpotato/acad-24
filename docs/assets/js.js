@@ -15,6 +15,19 @@ function copyIP() {
 	console.log(ip)
 }
 
+//service worker init
+
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+  .register('./assets/sw.js')
+  .then(function() {
+    console.log("Service Worker registered successfully");
+  })
+  .catch(function() {
+    console.log("Service worker registration failed")
+  });
+}
+
 //get srvdata
 $.getJSON('https://eu.mc-api.net/v3/server/ping/cheems.xyz',
   function(data) {
