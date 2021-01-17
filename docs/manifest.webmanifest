@@ -1,0 +1,59 @@
+{
+  "short_name": "cheems.xyz",
+  "name": "cheems.xyz",
+  "description": "Official AMSE Minecraft server",
+  "start_url": "/index.html",
+  "scope": ".",
+  "background_color": "#262626",
+  "theme_color": "#34AA2F",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "dir": "ltr",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "./assets/img/cheems.png",
+      "type": "image/png",
+      "sizes": "947x947"
+    },
+    {
+      "src": "./assets/ico/favicon-196x196.png",
+      "type": "image/png",
+      "sizes": "196x196"
+    },
+    {
+      "src": "./assets/ico/favicon-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "./assets/ico/favicon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "./assets/ico/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "./assets/ico/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    }
+   ],
+  "shortcuts": [
+    {
+      "name": "View the whitelist",
+      "short_name": "Whitelist",
+      "description": "View a list of the server's whitelisted players",
+      "url": "/whitelist/index.html"
+    },
+    {
+      "name": "Server status",
+      "short_name": "Status",
+      "description": "View the status of the server and its related APIs",
+      "url": "http://status.cheems.xyz"
+    }
+  ]
+}
