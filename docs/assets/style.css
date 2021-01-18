@@ -41,7 +41,7 @@ h5 {
 	width: 800px;
 	height: 150px;
 	margin: auto;
-	margin-top: 65px;
+	margin-top: 55px;
 	margin-bottom: 0px;
 }
 .frame {
@@ -51,6 +51,16 @@ h5 {
 	margin: auto;
 	margin-top: 0px;
 	margin-bottom: 50px;
+}
+.content {
+	background: #EEEEEE;
+	width: 740px;
+	height: 825px;
+	margin-left: 30px;
+	margin-right: 30px;
+	position: absolute;
+	top: 325px;
+	opacity: 0.25;
 }
 .footer {
 	background: #1E1E1E;
