@@ -8,7 +8,7 @@ function ttop() {
 //ip select on click
 function copyIP() {
 	var iptxt = document.getElementById("ip");
-	var ip = iptxt.substr(6, 8);
+	var ip = iptxt.substring(6, 11);
 	ip.select();
 	ip.setSelectionRange(0, 99999);
 	document.execCommand("copy");
@@ -29,7 +29,7 @@ if('serviceWorker' in navigator) {
 }
 
 //get srvdata
-$.getJSON('https://eu.mc-api.net/v3/server/ping/cheems.xyz',
+$.getJSON('https://eu.mc-api.net/v3/server/ping/hypixel.net',
   function(data) {
     $.each(data, function(index, value) {
       // console.log(value);

@@ -52,14 +52,18 @@ h5 {
 	margin-top: 0px;
 	margin-bottom: 50px;
 }
+.nav {
+	display: flex;
+	justify-content: center;
+}
 .content {
 	background: #EEEEEE;
 	width: 740px;
-	height: 825px;
+	height: 870px;
 	margin-left: 30px;
 	margin-right: 30px;
 	position: absolute;
-	top: 325px;
+	top: 305px;
 	opacity: 0.25;
 }
 .footer {
@@ -95,6 +99,7 @@ h5 {
 	width: 50px;
 	height: 50px;
 	position: absolute;
+	margin: 15px;
 	float: right;
 	top: 0;
 	right: 0;
@@ -115,7 +120,7 @@ h5 {
 	box-shadow: 0 -4px rgba(21,108,0,.5) inset, 0 4px rgba(100,253,31,.99) inset, -4px 0 rgba(100,253,31,.5) inset, 4px 0 rgba(21,108,0,.5) inset;
 	padding: 10px 10px;
 	color: #f9f9f9;
-	margin: 15px;
+	margin-top: 15px;
 	border: none;
 	outline: none;
 	transition: 0.5s;
@@ -128,20 +133,24 @@ h5 {
 .button-rec {
 	width: 178px;
 	height: 50px;
-	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .button-sq {
 	width: 50px;
 	height: 50px;
-	float: right;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .button-sq:hover {
 	transform: rotate(-90deg);
 }
 .button-sq-social {
-	margin-right: 10px;
-	margin-left: 10px;
 	float: right;
+	justify-content: center;
+	display: flex;
 }
 .button-sq-social:hover {
 	filter: contrast(150%);
@@ -149,22 +158,16 @@ h5 {
 	transform: rotate3d(-1, 1, 0, 10deg);
 	height: 60px;
 }
-.button-sq-social-end {
-	margin-right: 20px;
-}
 .button-sq-icon {
 	width: 30px;
 	height: 30px;
 	filter: invert(100%);
 }
-.sticky {
-	position: sticky;
-}
 .paypal {
-	float: left;
-	margin: 15px;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
 	outline: none;
-	width: 20px;
 	transition: 0.5s;
 }
 .paypal:hover {
@@ -228,4 +231,10 @@ h5 {
     font-weight: bold;
     font-style: normal;
     font-display: swap;
+}
+
+/* temporary css */
+.tempimage {
+	font-size: 80px;
+	font-family: 'Minecraft', serif;
 }
