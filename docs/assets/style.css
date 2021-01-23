@@ -104,6 +104,10 @@ h5 {
 	top: 0;
 	right: 0;
 }
+.footer-button-sq:hover {
+	transform: rotate(-90deg);
+	box-shadow: 0 -4px rgba(21,108,0,.5) inset, 0 4px rgba(100,253,31,.99) inset, -4px 0 rgba(100,253,31,.5) inset, 4px 0 rgba(21,108,0,.5) inset, -5px 5px rgba(0, 0, 0, 0.25)
+}
 .footer-div {
 	background-color: #262626;
 	margin: auto;
@@ -117,7 +121,7 @@ h5 {
 	background-color: #34aa2f;
 	font-size: 20px;
 	font-family: Minecraft Bold;
-	box-shadow: 0 -4px rgba(21,108,0,.5) inset, 0 4px rgba(100,253,31,.99) inset, -4px 0 rgba(100,253,31,.5) inset, 4px 0 rgba(21,108,0,.5) inset;
+	box-shadow: 0 -4px rgba(21,108,0,.5) inset, 0 4px rgba(100,253,31,.99) inset, -4px 0 rgba(100,253,31,.5) inset, 4px 0 rgba(21,108,0,.5) inset, 5px 5px rgba(0, 0, 0, 0.25);
 	padding: 10px 10px;
 	color: #f9f9f9;
 	margin-top: 15px;
@@ -128,7 +132,6 @@ h5 {
 .button:hover {
 	filter: contrast(150%);
 	cursor: pointer;
-	transform: rotate3d(-1, 1, 0, 10deg);
 }
 .button-rec {
 	width: 178px;
@@ -145,7 +148,7 @@ h5 {
 	margin-right: 10px;
 }
 .button-sq:hover {
-	transform: rotate(-90deg);
+	
 }
 .button-sq-social {
 	float: right;
