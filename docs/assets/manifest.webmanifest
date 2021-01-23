@@ -3,7 +3,7 @@
   "name": "cheems.xyz",
   "description": "Official AMSE Minecraft server",
   "start_url": "/index.html",
-  "scope": ".",
+  "scope": "https://mse.cheems.xyz",
   "background_color": "#262626",
   "theme_color": "#34AA2F",
   "display": "standalone",
