@@ -1,5 +1,13 @@
-# robots
+# robots :) hello!
 
 User-agent: *
 Disallow: /whitelist/
+Disallow: /assets/font/
+Disallow: /assets/ico/
+Disallow: /assets/img/
+Disallow: /*.svg$
 Sitemap: /sitemap.xml
+
+User-agent: Googlebot-Image
+Allow: /assets/img/cheem-banner.png
+Allow: /assets/img/stronghold.png

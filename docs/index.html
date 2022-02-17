@@ -44,32 +44,36 @@
   <meta name="apple-mobile-web-app-title" content="cheems.xyz">
 </head>
 <body id="body">
-  <div class="header tempimage">temp_image 16:3</div>
+  <img class="header" src="./assets/img/cheem-banner.png" onclick="window.location.href='./index.html';"></img>
   <div class="frame">
     <div class="nav">
     	<button class="button button-rec" onclick="window.location.href='http://status.cheems.xyz';">STATUSPAGE</button>
-    	<button class="button button-rec sticky" onclick="window.location.href='./whitelist';">PLAYERS</button>
-      <form action="https://www.paypal.com/donate" method="post" target="_top" class="paypal">
-        <input type="hidden" name="cmd" value="_donations"/>
-        <input type="hidden" name="business" value=""/>
-        <input type="hidden" name="item_name" value="Fund the MSE Class of 2024 Minecraft Server"/>
-        <input type="hidden" name="currency_code" value="USD"/>
-        <input type="image" src="https://i.imgur.com/KR5JqL1.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button"/>
-      </form>
+    	<button class="button button-rec" onclick="window.location.href='./whitelist';">PLAYERS</button>
+      <button class="button button-rec button-donate" onclick="window.location.href='./donate';" title="₿ | Ξ | Ð">Donate with <div class="bitcoin-orange">Crypto</div></button>
+      <!-- <form action="./donate" target="_top" class="paypal">
+        <input type="image" src="https://i.imgur.com/KR5JqL1.png" title="All major blockchains accepted!" alt="Donate with crypto"/>
+      </form> //-->
       <button class="button button-sq button-sq-social" aria-label="DYNMAP"><img class="button-sq-icon" src="./assets/icon/map.svg" onclick="window.location.href='http://map.cheems.xyz';" alt="Minecraft Map"></button>
       <button class="button button-sq button-sq-social" aria-label="GITHUB"><img class="button-sq-icon" src="./assets/icon/github.svg" onclick="window.location.href='https://github.com/willpotato/acad-24';" alt="GitHub Logo"></button>
     </div>
     <div class="content">
-      
+      <div class="segment">
+        <h1>Cheems.xyz Whitelisted SMP</h1>
+        <div class="div-25"></div>
+        <h2 class="imgtext fr">Welcome to our website! Managed by me, WillThePotato, this is the oficial community Minecraft server dedicated to the MSE. It serves as a place where you can interact with your friends, build, or do whatever, helping to connect us despite virtual learning restrictions.</h2>
+        <img class="img" src="./assets/img/stronghold.png" title="the gang in the stronghold 2020" alt="Preparing for the Ender Dragon">
+        <div class="div-25"></div>
+        <h2>If you'd like to learn how to join the whitelist, please contact me on Discord. In the meantime, maybe check out the GitHub page for this project or our live, interactive world map. To show support for the website, you may also donate in cryptocurrency to cover our domain name registrar fees. Have fun!</h2>
+      </div>
     </div>
   </div>
   <div class="footer">
-  	<img class="footer-img footer-img-logo" src="./assets/img/logo.png" alt="Class of 2024 Academy SMP">
-    <img class="footer-img footer-img-mojang" src="./assets/img/mojang.png" alt="Mojang Studios">
+  	<img class="footer-img footer-img-logo sharpen" src="./assets/img/logo.png" alt="Class of 2024 Academy SMP">
+    <img class="footer-img footer-img-mojang sharpen" src="./assets/img/mojang.png" alt="Mojang Studios">
     <button class="button footer-button-sq" id="ttop" onclick="ttop()" aria-label="TOP"><svg class="button-sq-icon" viewBox="0 0 512 512" id="arrow-right"><path d="M416 224v-64h-64V96h-64V32h-64v192H32v64h192v192h64v-64h64v-64h64v-64h64v-64h-64z"></path></svg></button>
     <h5>"Minecraft" is a trademark of Mojang Synergies AB and is not affiliated with the cheems.xyz network.</h5>
     <h5>Website created and maintained by WillThePotato.</h5>
-    <div class="ip" onclick="copyIP()" id="ip">JOIN: cheems.xyz</div>
+    <div class="ip" onclick="copyIP()" id="ip" title="Click to copy!">JOIN: cheems.xyz</div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
   <script src="./assets/js.js" type="text/javascript"></script>
