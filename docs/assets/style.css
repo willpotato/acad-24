@@ -143,7 +143,7 @@ ip::-moz-selection {
 	margin-top: 25px;
 	width: 25%;
 	height: 25%;
-	float: center
+	float: center;
 	position: absolute;
 }
 .footer-img-logo {
@@ -228,7 +228,7 @@ ip::-moz-selection {
 	height: 30px;
 	filter: invert(100%);
 }
-.button-donate {
+.button-news {
 	font-family: Minecraft;
 	font-size: 15px;
 	width: 200px;
